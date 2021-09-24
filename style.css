@@ -54,6 +54,22 @@ h3{
   padding-right: 100px;
   text-align: right;
 }
+.special{
+  width: 30%;
+  text-align: left;
+  padding-left: 50px;
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 0;
+  top: 0px;
+  bottom: 0px;
+}
+.special h2{
+  margin-top: 5px;
+    font-family: 'Sacramento', cursive;
+}
 .top-container{
   background-color: #EAF9F5;
   /* background-image: url("images/back.jpg");
@@ -124,7 +140,6 @@ hr{
 .codingskills{
   margin: 60px auto;
   width: 70%;
-  font-size: 1.5rem;
 }
 .btn {
   background: #11cdd4;
@@ -137,4 +152,8 @@ hr{
 
 .btn:hover {
   background: #30e3cb;
+}
+.box{
+  border-radius: .5rem;
+  box-shadow:.5rem .5rem 1rem rgba(0,0,0,.1);
 }
